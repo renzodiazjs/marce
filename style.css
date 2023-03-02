@@ -1,0 +1,96 @@
+/* boddy */
+
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* barra de navegacion */
+
+.barra_de_navegacion {
+    padding: 0px 0px 0px 0px;
+}
+
+.texto-nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    position: relative;
+}
+
+
+.profile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 210px;
+    height: 180px;
+    margin-right: 20px;
+}
+
+.profile ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile li {
+    margin-bottom: 10px;
+}
+
+.profile li strong {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+.content {
+    position: absolute;
+    background-color: black;
+}
+
+.content #perfilwork {
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+
+}
+
+.content .texto-nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+/* contenido principal */
+
+/* Footer */
